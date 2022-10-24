@@ -7,6 +7,8 @@ body{
   }
   *{
     box-sizing: inherit;
+    margin: 0;
+    padding: 0;
   }
   
   .nav{
@@ -20,10 +22,21 @@ body{
   box-shadow: 0 2px 0 rgb(0 0 0 / 40%);
   z-index: 10;
     }
+  
   .nav-list{
     display: flex;
     margin-right: 2rem;
   }
     ul{
       list-style: none;
+    }
+    .nav-list a{
+      display: block;
+      font-size: 2.2rem;
+      padding: 2rem;
+    }
+  
+    a{
+      text-decoration: none;
+      color: white;
     }
