@@ -40,3 +40,28 @@ body{
       text-decoration: none;
       color: white;
     }
+
+  .welcome-section{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+background-color: #eee7e1;
+background-image: linear-gradient(62deg, #eee7e1 0%, #eee5e1 100%)
+  }
+  h1{
+    font-size: 6rem;
+  }
+h1, h2{
+  font-weight: 700px;
+  text-align: center;
+
+}
+.welcome-section p{
+  font-size: 3rem;
+  font-weight: 200;
+font-style: italic;
+color: gray;
+}
