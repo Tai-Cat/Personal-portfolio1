@@ -1,5 +1,5 @@
 body{
-    font-family: 'Poppins', sans-serif;
+    font-family: Montserrat, sans-serif;
     font-size: 1.8rem;
     font-weight: 400;
     line-height: 1.4;
@@ -18,7 +18,7 @@ body{
     top: 0;
     left: 0;
   width: 100%;
-  background: red;
+  background: pink;
   box-shadow: 0 2px 0 rgb(0 0 0 / 40%);
   z-index: 10;
     }
@@ -38,30 +38,30 @@ body{
   
     a{
       text-decoration: none;
-      color: white;
+      color: gray;
     }
-
-  .welcome-section{
-    display: flex;
-    width: 100%;
-    height: 100vh;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-background-color: #eee7e1;
-background-image: linear-gradient(62deg, #eee7e1 0%, #eee5e1 100%)
+  
+    .welcome-section{
+      display: flex;
+      width: 100%;
+      height: 100vh;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+  background-color: #eee7e1;
+  background-image: linear-gradient(62deg, #eee7e1 0%, #eee5e1 100%)
+    }
+    h1{
+      font-size: 6rem;
+    }
+  h1, h2{
+    font-weight: 700px;
+    text-align: center;
+  
   }
-  h1{
-    font-size: 6rem;
+  .welcome-section p{
+    font-size: 3rem;
+    font-weight: 200;
+  font-style: italic;
+  color: gray;
   }
-h1, h2{
-  font-weight: 700px;
-  text-align: center;
-
-}
-.welcome-section p{
-  font-size: 3rem;
-  font-weight: 200;
-font-style: italic;
-color: gray;
-}
