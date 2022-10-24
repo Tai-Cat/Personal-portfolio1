@@ -54,14 +54,87 @@ body{
     h1{
       font-size: 6rem;
     }
-  h1, h2{
-    font-weight: 700px;
+ h1, h2 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
     text-align: center;
-  
-  }
+}
   .welcome-section p{
     font-size: 3rem;
     font-weight: 200;
   font-style: italic;
   color: gray;
   }
+ .projects-section{
+    text-align: center;
+    padding: 10rem 2rem;
+    background: #eee7e1;
+}
+
+.projects-section-header {
+    max-width: 640px;
+    margin: 0 auto 6rem auto;
+    border-bottom: 0.2rem solid gray;
+}
+.projects-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    grid-gap: 4rem;
+    width: 100%;
+    max-width: 1280px;
+    margin: 0 auto;
+    margin-bottom: 6rem;
+}
+.project {
+    background: white;
+    box-shadow: 1px 1px 2px rgb(0 0 0 / 50%);
+    border-radius: 2px;
+}
+.project-image {
+    height: calc(100% - 6.8rem);
+    width: 100%;
+    object-fit: cover;
+}
+img{display: block;}
+
+.contact-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    height: 80vh;
+    padding: 0 2rem;
+    background: pink;
+}
+.contact-section-header > h2 {
+    font-size: 6rem;
+}
+.contact-section-header, p {
+    font-style: italic;
+}
+.contact-links {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    max-width: 980px;
+    margin-top: 4rem;
+    flex-wrap: wrap;
+}
+.btn {
+    display: inline-block;
+    padding: 1rem 2rem;
+    border-radius: 2px;
+}
+.contact-details {
+    font-size: 2.4rem;
+    text-shadow: 2px 2px 1px #1f1f1f;
+    transition: transform 0.3s ease-out;
+}
+.fa, .fas {
+    font-weight: 900;
+}
+.fa, .far, .fas {
+    font-family: "Font Awesome 5 Free";
+}
